@@ -1,0 +1,11 @@
+﻿############################## 项目启动信息配置 开始  ##############################
+server:
+  port: 8080
+  tomcat:
+    port-header: HEAD,PUT,DELETE,OPTIONS,TRACE,COPY,SEARCH,PROPFIND
+    min-spare-threads: 20
+    max-threads: 500
+  connection-timeout: 10000
+  servlet:
+    context-path: /mmd
+############################## 项目启动信息配置 结束  ##############################
