@@ -29,7 +29,7 @@ public class TestController {
 
     @RequestMapping("turn2Login")
     public String lginPage2() {
-        return "login.html";
+        return "/common/markdown/edit.html";
     }
 
     @RequestMapping(value = "testSMS4")

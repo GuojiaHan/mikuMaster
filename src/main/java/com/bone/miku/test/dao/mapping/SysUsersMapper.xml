@@ -3,14 +3,14 @@
 <mapper namespace="com.bone.miku.test.dao.SysUsersMapper">
 
     <resultMap id="BaseResultMap" type="com.bone.miku.test.model.SysUsers">
-        <id column="userId" property="userId"/>
-        <result column="userName" property="userName"/>
-        <result column="userAccount" property="userAccount"/>
-        <result column="password" property="password"/>
-        <result column="loginCount" property="loginCount"/>
+        <id column="USER_ID" property="userId"/>
+        <result column="USER_NAME" property="userName"/>
+        <result column="USER_ACCOUNT" property="userAccount"/>
+        <result column="PASSWORD" property="password"/>
+        <result column="LOGIN_COUNT" property="loginCount"/>
     </resultMap>
 
     <select id="selectList" resultType="com.bone.miku.test.model.SysUsers">
-        SELECT * FROM SysUsers
+        SELECT * FROM Sys_Users
     </select>
 </mapper>

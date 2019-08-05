@@ -13,17 +13,17 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * @Since 2019/7/24 21:36
  * @Modefied [XXXX年XX月XX日 XX人修改了XXX内容]
  **/
-@TableName("SysUsers")
+@TableName("sys_users")
 public class SysUsers {
-    @TableField(value="userName")
+    @TableField(value="USER_NAME")
     private String userName;
-    @TableId(value="userId",type = IdType.UUID)
+    @TableId(value="USER_ID",type = IdType.UUID)
     private String userId;
-    @TableField(value="userAccount")
+    @TableField(value="USER_ACCOUNT")
     private String userAccount;
-    @TableField(value="password")
+    @TableField(value="PASSWORD")
     private String password;
-    @TableField(value="loginCount")
+    @TableField(value="LOGIN_COUNT")
     private String loginCount;
 
     public String getUserId() {
