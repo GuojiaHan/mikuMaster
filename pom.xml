@@ -62,14 +62,14 @@
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-spring</artifactId>
-			<version>1.4.0</version>
+			<version>1.7.0</version>
 		</dependency>
 		<!--Shiro 配置 end-->
 		<!-- 配置shiro 开始-->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-spring</artifactId>
-			<version>1.4.0</version>
+			<version>1.7.0</version>
 		</dependency>
 		<!--配置shiro 结束-->
 	</dependencies>
