@@ -55,7 +55,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.3.2</version>
+			<version>3.18.0</version>
 		</dependency>
 		<!--MD5 加密用 end -->
 		<!-- Shiro 配置 begin -->
